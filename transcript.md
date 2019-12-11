@@ -1,4 +1,4 @@
-Attestation to response 0016
+Attestation to response 0017
 ============================
 
 **Date:** 9th/10th December 2019
@@ -11,6 +11,7 @@ Attestation to response 0016
 
 **Challenge:**
 
+```bash
 challenge file contains decompressed points and has a hash:
         af608b45 96865150 0c5b4f09 1ea38f34
         fa7bee9b 75192c28 719e200d a483cc1d
@@ -22,21 +23,24 @@ challenge file claims (!!! Must not be blindly trusted) that it was based on the
         b2a71e4c 9d5563e4 fb91335d d6f98396
         aa0536c5 fc19fc54 fcf164ab 99307249
 Computing and writing your contribution, this could take a while...
+```
 
 - URL:     https://ppoteu.blob.core.windows.net/public/challenge_0017
 
 **Software used:** https://github.com/kobigurk/phase2-bn254/commit/bf852c168676a7afc5dd17b47ff9b8f394aeab8a
 
-Compiled and deployed as docker image pstehlik/ppot:latest 
-See dockerfile at https://github.com:pstehlik/powersoftau2019/Dockerfile
+Compiled and deployed as docker image pstehlik/ppot:latest - https://hub.docker.com/r/pstehlik/ppot
+
+Built from dockerfile at https://github.com/pstehlik/powersoftau2019/blob/master/Dockerfile
 
 **Response:**
-
+```bash
 The BLAKE2b hash of `./response` is:
         eaf5d6d3 821690bb 16070bc4 fed04f9f
         aa652baf 9d959ad9 ae394bc1 d51d3beb
         84d0ffd9 66328257 4956f171 79fa5fea
         e5b6e77c 7eb509f1 925e1b92 ccb9d51a
+```
 
 **Entropy sources:** shamanically invoked and initiated entropy source with a mixture of images, sounds, keyboard strokes, and other randomness
 
