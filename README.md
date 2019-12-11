@@ -28,12 +28,12 @@ sha256sum challenge
 
 transcript
 ```
-create docker image with powers of tau binaryls
+create docker image with powers of tau binary
 
 published to pstehlik/ppot:latest
 
 
-on physical host machine
+on physical server host machine
 mkdir ~/ppot_challenge
 
 cd ~/ppot_challenge
@@ -82,6 +82,9 @@ real    189m46.413s
 user    4336m13.233s
 sys     3m0.201s
 
+exit
+
+# on physical server machine 
 pstehlik@server1:~/ppot_challenge$ sha256sum response 
 2d222937a2542e55a526343010ef0f9c145ffde795b2ead5878a5686b167b31f  response
 
