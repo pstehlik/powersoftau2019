@@ -52,6 +52,6 @@ The BLAKE2b hash of `./response` is:
 
 - Signed this file using PGP BE3B DE7E F630 00CE and made a PR on github (`pstehlik`)
 
-- Signature at https://github.com:pstehlik/powersoftau2019/transcript.md.sig
+- Signature at https://github.com/pstehlik/powersoftau2019/blob/master/transcript.md.sig
 
 - Keybase verification of PGP key https://keybase.io/pstehlik/sigchain#3c1e05327ff60809514a6627ac938da16e83af0cabb848995e497090784cd3480f
