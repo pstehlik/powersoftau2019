@@ -1,13 +1,13 @@
 Attestation to response 0016
 ============================
 
-**Date:** 10th December 2019
+**Date:** 9th/10th December 2019
 
 **Name:** Philip Stehlik @ Centrifuge
 
 **Location:** Berlin
 
-**Device(s):** Centrifuge owned server
+**Device(s):** Centrifuge owned server AMD Ryzen 9 3900X running ubuntu linux
 
 **Challenge:**
 
@@ -32,18 +32,11 @@ See dockerfile at https://github.com:pstehlik/powersoftau2019/Dockerfile
 
 **Response:**
 
-- Blake2b: `93a8821813e1ae6b59485741002013e994faa6805ee25e174787fcc963a3ae08b2a71e4c9d5563e4fb91335dd6f98396aa0536c5fc19fc54fcf164ab99307249`
-
 The BLAKE2b hash of `./response` is:
         eaf5d6d3 821690bb 16070bc4 fed04f9f
         aa652baf 9d959ad9 ae394bc1 d51d3beb
         84d0ffd9 66328257 4956f171 79fa5fea
         e5b6e77c 7eb509f1 925e1b92 ccb9d51a
-
-Here's the BLAKE2b hash of the decompressed participant's response as `new_challenge` file:
-
-
-- URL:     https://ppot.blob.core.windows.net/public/response_0016_aurel
 
 **Entropy sources:** shamanically invoked and initiated entropy source with a mixture of images, sounds, keyboard strokes, and other randomness
 
@@ -55,7 +48,7 @@ Here's the BLAKE2b hash of the decompressed participant's response as `new_chall
 
 - I uploaded the response to an SFTP server provided by Wei Jie Koh.
 
-- Docker container stopped. |Machine rebooted.
+- Docker container stopped. Machine rebooted.
 
 - Signed this file using PGP BE3B DE7E F630 00CE and made a PR on github (`pstehlik`)
 
